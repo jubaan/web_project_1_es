@@ -250,6 +250,50 @@ a {
   font-size: 18px;
 }
 
+.feynman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 790px;
+}
+
+.feynman__title {
+  width: 775px;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 70px;
+  z-index: 1;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  z-index: 1;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__image {
+  position: absolute;
+  height: 637px;
+  width: 867px;
+  bottom: 0;
+  left: 0;
+}
+
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
