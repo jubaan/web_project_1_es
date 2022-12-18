@@ -1,3 +1,5 @@
+@import url(normalize.css);
+
 */html,
 body,
 p,
@@ -75,6 +77,11 @@ th {
   padding: 0;
 }
 
+a {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -91,12 +98,63 @@ th {
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  height: 31px;
+  width: 154px;
+  z-index: 1;
+}
+
+.logo__image {
+  width: 100%;
+  height: 100%;
+}
+
+.header__title {
+  margin-left: 64px;
+  z-index: 2;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__main-illustration {
+  height: 608px;
+  width: 756px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  object-fit: contain;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
+.header__square {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
 }
 
 /* including elements with key-value modifiers */
