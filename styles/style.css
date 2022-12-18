@@ -247,6 +247,7 @@ a {
 .table__text {
   margin-top: 20px;
   line-height: 1.2;
+  font-size: 18px;
 }
 
 /* including elements with key-value modifiers */
