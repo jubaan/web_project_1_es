@@ -1,6 +1,7 @@
 @import url(normalize.css);
 
-*/html,
+*,
+html,
 body,
 p,
 ol,
@@ -155,6 +156,48 @@ a {
   top: 64px;
   right: 0;
   background-color: #2f80ed;
+}
+
+.description {
+  margin: 100px 0;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  /* padding-top: 100px; */
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* including elements with key-value modifiers */
