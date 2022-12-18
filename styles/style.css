@@ -215,15 +215,16 @@ a {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .section-subtitle {
   width: 60%;
-  margin-bottom: 60px;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 1;
 }
 
 .table {
@@ -231,11 +232,12 @@ a {
   flex-wrap: wrap;
   width: 1100px;
   justify-content: space-between;
-  gap: 60px 0;
+  z-index: 1;
 }
 
 .table__cell {
   width: 250px;
+  margin-top: 60px;
 }
 
 .table__heading {
@@ -294,10 +296,38 @@ a {
   left: 0;
 }
 
+.kaufman {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.section-title_theme_dark {
+  color: #fff;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
+}
+
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.kaufman__triangle {
+  width: 636px;
+  height: 660px;
+  object-fit: cover;
+  object-position: left 180px top 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
