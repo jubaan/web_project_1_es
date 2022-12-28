@@ -8,11 +8,11 @@
 
 ## Overview
 
+This project consists of two versions of the same project. The first version was about building the website from scratch using one stylesheet with HTML, CSS, and BEM naming conventions. The second version is an improvement built over the first one, that added a BEM file structure and required reuse of previously built BEM blocks.
+
+The project lasted two-week sprints, one per each version. The goal was to familiarize myself with HTML, CSS, Flex, CSS animations, and BEM methodology.
+
 ![projecto 2](https://user-images.githubusercontent.com/25774518/209867607-b6e70dea-9af2-4123-8c9d-d7ceae701cf1.jpg)
-
-This project consist on two versions of the same project. The first version consisted on building the website using one stylesheet with BEM naming convention. The second version is an improvement that added BEM file structure.
-
-The project lasted two sprints one per each version. The goal was to familiarize with HTML, CSS, Flex, CSS animations, and BEM methodology.
 
 ### Built With
 
